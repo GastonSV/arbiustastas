@@ -7,5 +7,5 @@ const times = process.argv.length > 3 ? process.argv[3] : 10
 const logger = new Logger()
 
 for (let i = 0; i < times; i++) {
- logger.print(`Hola ${name} por vez número ${i + 1}`)
+ logger.print(`Hola ${name} por vez número ${i + 1} dentro de la charla de Git`)
 }
